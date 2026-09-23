@@ -1,8 +1,8 @@
 #include stdio.h
-yo = [2, 8, 9, 48, 9, 22, -12, 2]
-whatup = []
+original_array = [2, 8, 9, 48, 9, 22, -12, 2]
+new_array = []
 
-for i in yo:
-    whatup.append(i+2)
+for i in original_array:
+    new_array.append(i+2)
 
-print(whatup)
+print(new_array)

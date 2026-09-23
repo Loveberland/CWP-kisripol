@@ -1,9 +1,9 @@
-def add_one(huh):
-    huh += 1
-    return huh
+def add_one(number):
+    number += 1
+    return number
 
 if __name__ == "__main__":
-    fuh = 1
-    print(fuh)
-    print(add_one(fuh))
-    print(fuh)
+    initial_number = 1
+    print(initial_number)
+    print(add_one(initial_number))
+    print(initial_number)

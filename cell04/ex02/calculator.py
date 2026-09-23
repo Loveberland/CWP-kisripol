@@ -1,4 +1,3 @@
-#include stdio.h
 def common_calculation(first_number, second_number):
     print(f"{first_number} + {second_number} = {first_number + second_number}")
     print(f"{first_number} - {second_number} = {first_number - second_number}")

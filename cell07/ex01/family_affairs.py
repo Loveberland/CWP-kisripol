@@ -1,9 +1,9 @@
-def find_the_redheads(dic):
-    redhairs = []
-    for i in dic.keys():
-        if dic[i] == "red":
-            redhairs.append(i)
-    return redhairs
+def find_the_redheads(family_dict):
+    redheads_list = []
+    for i in family_dict.keys():
+        if family_dict[i] == "red":
+            redheads_list.append(i)
+    return redheads_list
 
 if __name__ == "__main__":
     dupont_family = {

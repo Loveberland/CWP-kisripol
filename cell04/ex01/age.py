@@ -1,4 +1,3 @@
-#include stdio.h
 def whatmyage(age):
     for i in range(10, 31, 10):
         print(f"In {i} years, you'll be {age+i} years old.")

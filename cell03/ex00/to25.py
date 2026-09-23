@@ -1,12 +1,12 @@
 #include stdio.h
 '''Damn i accidently remove my cell03 folder and now im doing it again ;-;'''
-def from_this_to_that(thisnumber, thatnumber):
-    while thisnumber != thatnumber:
-        print(f"Inside the loop, my variable is {thisnumber}")
-        if thisnumber < thatnumber:
-            thisnumber += 1
+def from_this_to_that(current_number, target_number):
+    while current_number != target_number:
+        print(f"Inside the loop, my variable is {current_number}")
+        if current_number < target_number:
+            current_number += 1
         else:
-            thisnumber -= 1
+            current_number -= 1
 
 if __name__ == "__main__":
     number = int(input("Enter a number less than 25\n"))

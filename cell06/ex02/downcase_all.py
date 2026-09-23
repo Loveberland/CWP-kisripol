@@ -2,7 +2,7 @@ import sys
 def downcase_it(string):
     return string.lower()
 if __name__ == "__main__":
-    dalist = sys.argv
-    dalist.pop(0)
-    for i in dalist:
+    arguments_list = sys.argv
+    arguments_list.pop(0)
+    for i in arguments_list:
         print(downcase_it(i))

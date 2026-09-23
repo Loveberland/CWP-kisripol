@@ -1,23 +1,23 @@
-def sorting(key, item):
-    sort = []
-    while len(item) > 0:
-        most = 0
-        index = 0
-        for i in item:
-            if int(i) > most:
-                most = int(i)
-                index = item.index(i)
-        sort.append(key.pop(index))
-        item.pop(index)
-    return sort
+def sorting(keys_list, items_list):
+    sorted_keys = []
+    while len(items_list) > 0:
+        oldest_birth_year = 0
+        oldest_index = 0
+        for i in items_list:
+            if int(i) > oldest_birth_year:
+                oldest_birth_year = int(i)
+                oldest_index = items_list.index(i)
+        sorted_keys.append(keys_list.pop(oldest_index))
+        items_list.pop(oldest_index)
+    return sorted_keys
 
-def famous_births(dic):
-    key = []
-    item = []
-    for i in dic:
-        key.append(i)
-        item.append(dic[i]["date_of_birth"])
-    return sorting(key, item)
+def famous_births(scientists_dict):
+    keys_list = []
+    items_list = []
+    for i in scientists_dict:
+        keys_list.append(i)
+        items_list.append(scientists_dict[i]["date_of_birth"])
+    return sorting(keys_list, items_list)
 
 if __name__ == "__main__":
     women_scientists = {

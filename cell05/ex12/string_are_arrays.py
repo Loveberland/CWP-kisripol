@@ -1,6 +1,6 @@
 import sys
-z = 0 
+z_count = 0 
 for i in sys.argv[1]:
     if i == "z":
-        z += 1
-print("z"*z)
+        z_count += 1
+print("z"*z_count)

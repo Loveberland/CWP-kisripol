@@ -1,8 +1,8 @@
 import sys
-da_list = sys.argv
-da_list.pop(0)
-new_list = []
-for i in da_list:
-    if i[-4:-1] != "ism":
-        new_list.append(i+"ism")
-print("\n".join(new_list))
+arguments_list = sys.argv
+arguments_list.pop(0)
+modified_list = []
+for i in arguments_list:
+    if i[-3:] != "ism":
+        modified_list.append(i+"ism")
+print("\n".join(modified_list))

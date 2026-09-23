@@ -1,10 +1,10 @@
-def average(dic):
-    sum_score = 0
-    sum_student = 0
-    for i in dic.keys():
-        sum_score += dic[i]
-        sum_student += 1
-    return sum_score/sum_student
+def average(class_scores):
+    total_score = 0
+    total_students = 0
+    for i in class_scores.keys():
+        total_score += class_scores[i]
+        total_students += 1
+    return total_score/total_students
 
 if __name__ == "__main__":
     class_3B = {

@@ -1,8 +1,8 @@
-def array_of_names(dic):
-    namelist = []
-    for i in dic:
-        namelist.append(i[0].upper()+i[1:]+" "+dic[i][0].upper()+dic[i][1:])
-    return namelist
+def array_of_names(persons_dict):
+    full_names = []
+    for i in persons_dict:
+        full_names.append(i[0].upper()+i[1:]+" "+persons_dict[i][0].upper()+persons_dict[i][1:])
+    return full_names
 
 if __name__ == "__main__":
     person = {

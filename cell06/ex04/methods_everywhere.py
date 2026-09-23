@@ -6,9 +6,9 @@ def enlarge(string):
     return string+str("Z"*(8-len(string)))
 
 if __name__ == "__main__":
-    da_list = sys.argv
-    da_list.pop(0)
-    for i in da_list:
+    arguments_list = sys.argv
+    arguments_list.pop(0)
+    for i in arguments_list:
         if len(i) > 8:
             print(shrink(i))
         else:
