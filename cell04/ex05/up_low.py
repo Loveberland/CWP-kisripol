@@ -1,12 +1,12 @@
-#include stdio.h
 def highlow(word):
     swapped_word = ""
-    for i in word:
-        if i.islower():
-            swapped_word += i.upper()
+    for character in word:
+        if character.islower():
+            swapped_word += character.upper()
         else:
-            swapped_word += i.lower()
+            swapped_word += character.lower()
     return swapped_word
+
 
 if __name__ == "__main__":
     print(highlow(input()))

@@ -1,3 +1,3 @@
 import sys
-print(str(sys.argv[1]).upper())
 
+print(sys.argv[1].upper())

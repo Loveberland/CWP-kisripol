@@ -1,4 +1,4 @@
 import sys
-for i in sys.argv:
-    print(i)
 
+for argument in sys.argv:
+    print(argument)

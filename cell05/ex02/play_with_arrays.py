@@ -1,9 +1,8 @@
-#include stdio.h
-original_array = [2, 8, 9, 48, 9, 22, -12, 2]
-new_array = []
+original_numbers = [2, 8, 9, 48, 9, 22, -12, 2]
+incremented_numbers = []
 
-for i in original_array:
-    if i > 5:
-        new_array.append(i+2)
+for number in original_numbers:
+    if number > 5:
+        incremented_numbers.append(number + 2)
 
-print(new_array)
+print(incremented_numbers)

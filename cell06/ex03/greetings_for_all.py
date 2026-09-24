@@ -1,8 +1,9 @@
-def greetings(name = "noble stranger"):
+def greetings(name="noble stranger"):
     if isinstance(name, str):
-        print("Hello, "+name+".")
+        print("Hello, " + name + ".")
     else:
         print("Error! It was not a name.")
+
 
 if __name__ == "__main__":
     greetings("Alexandra")

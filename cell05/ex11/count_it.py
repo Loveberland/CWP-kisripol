@@ -1,4 +1,5 @@
 import sys
+
 print("parameters:", len(sys.argv))
-for i in sys.argv:
-    print(i+": "+str(len(i)))
+for argument in sys.argv:
+    print(f"{argument}: {len(argument)}")

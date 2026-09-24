@@ -14,12 +14,12 @@ class Student:
         return self.age
 
     def get_next42years(self):
-        my_age = self.age + 42
-        return my_age
+        return self.age + 42
 
     def get_wholename(self):
-        whole_name = self.first_name + " " + self.last_name
-        return whole_name
+        return self.first_name + " " + self.last_name
+
+
 if __name__ == "__main__":
-    me = Student("Aigkarat", "Artapiyatham", 21)
-    print(me.get_next42years())
+    student = Student("Aigkarat", "Artapiyatham", 21)
+    print(student.get_next42years())

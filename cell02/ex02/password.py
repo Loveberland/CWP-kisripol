@@ -1,11 +1,10 @@
-#include stdio.h
-
 def password_check(word):
-    password = "Python is awesome"
-    if word == password:
+    expected_password = "Python is awesome"
+    if word == expected_password:
         print("ACCESS GRANTED")
     else:
         print("ACCESS DENIED")
+
 
 if __name__ == "__main__":
     password_check(input())
